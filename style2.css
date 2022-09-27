@@ -1,0 +1,271 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.my-topbar {
+    z-index: 3000;
+    position: relative;
+    background-color: #254c7c;
+    color: #FFF;
+    box-shadow: rgb(200 233 20 / 98%) 0px 0px 4px 3px;
+}
+
+.my-topbar a {
+    color: white !important;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.my-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.my-content {
+    background: #08082a;
+}
+
+.hi {
+    padding-top: 2vh;
+}
+
+.Bshadow {
+    box-shadow: 0px 0px 3px 3px #38423861;
+}
+
+.padding {
+    padding-bottom: 4vh;
+
+}
+
+.btn-container {
+    letter-spacing: 2vw;
+}
+
+span {
+    color: #B721FF;
+}
+
+.heart {
+    display: inline-block;
+    animation: 2.5s ease 0s infinite normal none running heartBeat;
+}
+
+.dark-bg {
+    background: #12192c;
+}
+
+.txt-colour {
+    color: wheat;
+    text-decoration: none;
+}
+
+.trans {
+    background: #214a37a8;
+}
+
+.head-txt {
+    border-bottom: 2px solid #6a1b93;
+    padding-bottom: 4vh;
+}
+
+.alian {
+    width: 30%;
+}
+
+.avatar {
+    padding: 9px;
+    box-shadow: 0px 0px 10px 10px #38423861;
+    border-radius: 30%;
+    width: 50%;
+}
+
+.mypadding {
+    padding-top: 25px;
+}
+
+.mypadding-vertical {
+    padding: 50px 0px;
+}
+
+.sub-header {
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-bottom: 2vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+}
+
+.icons li {
+    list-style-type: none;
+    background: #B721FF;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.icons li:hover {
+    background: #edffec;
+    color: #000;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.btn.btn-md {
+    background: #B721FF;
+    color: #fff;
+    border-color: #B721FF;
+    transition: all 0.5s ease-in-out;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.btn.btn-md:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.h-btn {
+    background: purple !important;
+    margin-top: 0px !important;
+}
+
+.h-btn:hover {
+    background: #B721FF !important;
+    border-color: #B721FF !important;
+}
+
+.responsive {
+    background: transparent !important;
+}
+
+.gradient {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.quote {
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.quote-body {
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    background-image: url(/static/media/quote.c952ddc….png);
+    box-shadow: rgba(20, 233, 86, 0.98) 0px 0px 1px 3px;
+    display: grid;
+    grid-template-areas:
+        "left . . ."
+        ". quote quote ."
+        ". quote quote ."
+        ". . . right";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 8rem;
+    justify-items: center;
+    width: 70%;
+    z-index: 10;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-radius: 15px;
+
+}
+
+.left,
+.right {
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 100;
+}
+
+.left {
+    fill: #B721FF;
+    margin-top: -2.4rem;
+    grid-area: left / left / left / left;
+}
+
+.right {
+    fill: #21D4FD;
+    margin-bottom: -2.4rem;
+    grid-area: right / right / right / right;
+}
+
+.quote-body-content {
+    grid-area: quote / quote / quote / quote;
+}
+
+.myquote {
+    font-weight: 900;
+    opacity: 0.8;
+    text-transform: capitalize;
+    margin: 0px;
+    color: #ffefd0;
+    line-height: 1.5rem;
+    font-size: 22px;
+    /* font-family: ExoSpace; */
+}
+
+.experience-svg {
+    width: 40%;
+    float: right;
+}
+
+.projects-slide {
+    padding: 4rem 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    h3 {
+        padding-bottom: 5vh;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .heres {
+        font-size: 12px;
+    }
+
+    .responsive {
+        display: none !important;
+    }
+
+    .btn {
+        padding: 0.2rem 0.6rem !important;
+        font-size: 0.7rem !important;
+    }
+
+    .sub-header {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+}
