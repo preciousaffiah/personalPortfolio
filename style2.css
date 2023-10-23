@@ -282,3 +282,16 @@ ul {
     }
 
 }
+
+
+@media screen and (max-width: 569px) {
+    .w-48rem{
+        width: 25rem!important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .w-48rem{
+        width: 23rem!important;
+    }
+}
